@@ -1,5 +1,5 @@
 let nomeHeroi = "Pedro"
-let xpHeroi = 300;
+let xpHeroi = 8000;
 
 switch (true){
     case xpHeroi <= 1000 :
@@ -33,4 +33,5 @@ switch (true){
         default: 
         console.log("Radiante");
 }
- console.log ("O herói de nome "+ nomeHeroi +  "está no nível de" + xpHeroi)
+
+ console.log ("O herói de nome "+ nomeHeroi +  " está no nível de " + xpHeroi)
